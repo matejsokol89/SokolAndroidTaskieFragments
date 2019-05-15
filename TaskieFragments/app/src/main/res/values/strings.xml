@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Taskie</string>
+    <string name="newTaskHeadingText">New task:</string>
+    <string name="newTaskTitleInputHint">Enter task title</string>
+    <string name="newTaskDescriptionInputHint">Enter task description</string>
+    <string name="lowPriority">Low</string>
+    <string name="mediumPriority">Medium</string>
+    <string name="highPriority">High</string>
+    <string name="saveTaskActionText">Save</string>
+    <string name="emptyFields">Check your inputs</string>
+    <string name="noTaskFound">No such task found</string>
+    <string name="no_data">No data! :(</string>
+    <string name="about_me">About me</string>
+    <string name="about_me_text">Matej Sokol dolazim iz Osijeka</string>
+    <string name="about_navigation">About</string>
+    <string name="tasks_navigation">Tasks</string>
+    <string name="about_app_text">This is app task from Android Dev Academy</string>
+</resources>

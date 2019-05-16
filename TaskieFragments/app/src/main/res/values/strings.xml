@@ -11,8 +11,8 @@
     <string name="noTaskFound">No such task found</string>
     <string name="no_data">No data! :(</string>
     <string name="about_me">About me</string>
-    <string name="about_me_text">Matej Sokol dolazim iz Osijeka</string>
+    <string name="about_me_text">My name is Matej Sokol, I am Junior Programmer. For know I am in process of learning Kotlin and Android for App Development on OSC Academy.</string>
     <string name="about_navigation">About</string>
     <string name="tasks_navigation">Tasks</string>
-    <string name="about_app_text">This is app task from Android Dev Academy</string>
+    <string name="about_app_text">This is app task from Android Dev Academy. I tried to make my home work, I hope it is valid, and this app is awesome.</string>
 </resources>

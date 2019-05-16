@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+
+
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/aboutMeFragment"
-        xmlns:app="http://schemas.android.com/apk/res-auto">
-
-
-
-
-    <TextView
-            android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/marginLarge"
+        android:layout_marginEnd="@dimen/marginLarge"
+        android:layout_marginStart="@dimen/marginLarge"
+        android:layout_marginTop="@dimen/marginLarge">
+    <ImageView
+            android:layout_marginTop="@dimen/marginLarge"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/aboutMeText"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
+            tools:srcCompat="@drawable/ic_people"
+            android:id="@+id/imageView2"
+            app:srcCompat="@drawable/ic_people"
+            android:layout_weight="20"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marginLarge"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:id="@+id/aboutAppText"
             style="@style/RegularTextView"
+            android:gravity="center_horizontal"
             android:text="@string/about_me_text"/>
 
-</RelativeLayout>
+
+</LinearLayout>
